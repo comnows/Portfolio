@@ -1,0 +1,81 @@
+html{
+    height: 100%;
+}
+
+body{
+    background: linear-gradient(#4580ae,#1a3244);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+fieldset{
+    width: 500px;
+    margin: 25px auto;
+    border: 3px solid #754c31;
+    border-radius: 10px;
+    /* background-color: coral; */
+    background-color: #da9564;
+}
+
+legend{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #c9733b;
+    border: 3px solid #65381c;
+    border-radius: 10px;
+    padding: 12px 20px;
+}
+
+input[type=text]{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+#start{
+    background-color: #15ba3d;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    width: 15%;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+#start:hover{
+    background-color: #0f8828;
+}
+
+#game-container {
+	margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#game-layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    
+    border: 3px solid black;
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 3px solid black;
+}
+
+.red{
+    background-color: red; 
+}
+.blue{
+    background-color: blue; 
+}
+
+.green{
+    background-color: green; 
+}

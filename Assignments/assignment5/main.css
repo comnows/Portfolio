@@ -1,0 +1,68 @@
+body{
+    background-color: aquamarine;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+
+hr{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.short_hr{
+    width: 15%;
+}
+
+#PostBox{
+    background-color: cornsilk;
+    width: 800px;
+    height: 90px;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+#comment1, #comment2{
+    margin-left: 25px;
+}
+
+#text1{
+    display: block;
+    width: 400px;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+#button_id{
+    text-align: center;
+}
+
+#post{
+    background-color: #15ba3d;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    width: 10%;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+#post:hover{
+    background-color: #0f8828;
+}
+
+#clear{
+    background-color: #ff5c5c;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    width: 5%;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+#clear:hover{
+    background-color: #d84b4b;
+}

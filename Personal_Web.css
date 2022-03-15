@@ -1,0 +1,312 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: white;
+    /* font-family: 'Courier New', Courier, monospace; */
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    background-color: white;
+}
+
+.header .head-container{
+    width: 75%;
+    display: flex;
+    margin: auto;
+    padding: 12px 20px;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+
+.head-name{
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.head-name a{
+    color: black;
+    text-decoration: none;
+}
+
+.head-name a:link{
+    color:black;
+}
+
+.head-name a:visited{
+    color: black;
+}
+
+.head-container .head-nav{
+    margin-right: 20px;
+    margin-left: auto;
+}
+
+.head-nav .nav-list{
+    list-style: none;
+    padding: 0;
+}
+
+.head-nav .nav-list li{
+    display: inline-block;
+    padding: 12px;
+}
+
+.head-nav a{
+    color: black;
+    text-decoration: none;
+}
+
+.head-nav a:hover{
+    font-weight: bold;
+}
+
+.head-nav a:visited{
+    color: black;
+}
+
+.aboutme-container{
+    background-color: #252525;
+    padding-top: 150px;
+    padding-bottom: 200px;
+}
+
+#Profile_Pic{
+    width: 12%;
+    border-radius: 50%;
+}
+
+.aboutme_Font{
+    color: white;
+    font-size: 36px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.subhead-name{
+    color: white;
+    font-size: 26px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.name{
+    color: #6a6a6a;
+    font-size: 18px;
+}
+
+.aboutme-detail{
+    color: #6a6a6a;
+    font-size: 18px;
+}
+
+.detail-container{
+    width: 100%;
+}
+
+.detail-subcontainer{
+    display: flex;
+    justify-content: center;
+}
+
+
+.hobby, .ability, .attention{
+    /* width: 100%; */
+    text-align: left;
+    margin: 50px 70px;
+}
+
+.hobby div, .ability div, .attention div{
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 22px;
+}
+
+@media only screen and (max-width: 725px) {
+    .detail-subcontainer{
+        flex-wrap: wrap;
+    }
+
+    .hobby, .ability, .attention{
+        /* width: 100%; */
+        text-align: center;
+    }
+}
+/* section{
+    display: inline-table;
+    width: 250px;
+    height: 205px;
+    margin-left: 25px;
+    border: 5px outset crimson;
+} */
+
+ul{
+    font-size: 14pt;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    text-align: left;
+}
+
+.center_Align{
+    text-align: center;
+}
+
+footer{
+    background-color: #252525;
+    text-align: center;
+    padding-bottom: 14px;
+}
+
+.contact{
+    color: white;
+    font-size: 20px;
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+
+.email-contact, .facebook-contact{
+    color: white;
+    font-size: 18px;
+    margin: 8px;
+}
+
+.email-contact a,.email-contact a:visited, .facebook-contact a, .facebook-contact a:visited{
+    color: #6a6a6a;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.email-contact a:hover, .facebook-contact a:hover{
+    color: #cecbcb;
+}
+
+.fa-at{
+    --fa-animation-duration: 1.5s;
+}
+
+.fa-facebook{
+    --fa-animation-duration: 2s;
+}
+
+/* Project web */
+.webassignment-container{
+    background-color: #252525;
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.web-text{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.picbox1{
+    max-width: 1200px;
+    /* height: 600px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.picbox1 img{
+    width: 100%;
+    box-shadow: 8px 10px 16px rgba(255, 255, 255, 0.25);
+    transition: 0.4s ease;
+}
+
+.picbox1 img:hover{
+    transform: scale(1.01);
+    box-shadow: 12px 14px 20px 5px rgba(255, 255, 255, 0.25);
+}
+
+.webassignment-container .buttonbox{
+    text-align: left;
+    /* max-width: 1200px; */
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.webassignment-container .prev, .webassignment-container .next{
+    cursor: pointer;
+    position: absolute;
+    /* left: 0; */
+    top: 48%;
+    background-color: rgba(0, 0, 0, 0);
+    width: auto;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    transition: 0.45s ease;
+    padding: 35px 16px;
+    border-radius: 3px;
+    /* margin-top: 75px;
+    margin-left: 10%; */
+}
+
+.webassignment-container .next{
+    right: 0;
+}
+
+.webassignment-container .prev:hover, .webassignment-container .next:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.gameproject-container{
+    background-color: white;
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.game-text{
+    /* color: black; */
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.picbox2{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.picbox2 img{
+    width: 100%;
+    box-shadow: 8px 10px 16px rgba(0, 0, 0, 0.2);
+}
+
+.gameproject-container .buttonbox{
+    text-align: left;
+}
+
+.gameproject-container .prev, .gameproject-container .next{
+    cursor: pointer;
+    position: absolute;
+    top: 48%;
+    background-color: rgba(0, 0, 0, 0);
+    width: auto;
+    /* color: white; */
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    transition: 0.45s ease;
+    padding: 35px 16px;
+}
+
+.gameproject-container .next{
+    right: 0;
+}
+
+.gameproject-container .prev:hover, .gameproject-container .next:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
